@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.5" replicaid="C125803600254D46" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="17a" sequence="1" unid="F89BB24061009544C125803600260992">
+<created><datetime dst="true">20160922T085528,18+02</datetime></created>
+<modified><datetime dst="true">20160922T085528,43+02</datetime></modified>
+<revised><datetime dst="true">20160922T085528,38+02</datetime></revised>
+<lastaccessed><datetime dst="true">20160922T085528,43+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20160922T085528,43+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Patrick Kwinten/O=quintessens</name></updatedby>
+<wassignedby><name>CN=Patrick Kwinten/O=quintessens</name></wassignedby>
+<item name="$TITLE"><text>giphy.gif</text></item>
+<item name="$Flags"><text>34CiQ</text></item>
+<item name="$FlagsExt"><text>D</text></item>
+<item name="$ImagesWide" sign="true"><number>1</number></item>
+<item name="$ImagesHigh" sign="true"><number>1</number></item>
+<item name="$ImagesColorize" sign="true"><number>0</number></item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<item name="$MimeType" sign="true"><text>image/gif</text></item>
+<item name="$FileModDT" sign="true"><datetime dst="true">20160922T085509,85+02</datetime></item>
+<item name="$ImageNames" sign="true"><text>giphy.gif</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item></note>

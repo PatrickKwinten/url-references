@@ -1,0 +1,43 @@
+
+<theme extends="Bootstrap3_flat" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="platform:/plugin/com.ibm.designer.domino.stylekits/schema/stylekit.xsd" >
+
+    <control override="false">
+        <name>ViewRoot</name>
+        <property>
+            <name>pageTitle</name>
+            <value>#{javascript:@DbTitle()}</value>
+        </property>
+    </control> 
+	<!--	alt.1
+	<resource>
+ 		<content-type>text/css</content-type>
+		<href>custom.css</href>
+	</resource>
+	-->
+	
+	<!--	alt.2
+	<resource>
+   		<content-type>text/css</content-type>
+   		<href>/custom.css</href>
+	</resource>
+	-->
+	
+	<!--	alt.3
+	Installed on server, path C:\Program Files\IBM\Domino\data\domino\html\css
+	 -->
+	 
+	<resource>
+   		<content-type>text/css</content-type>
+   		<href>/.ibmxspres/domino/css/custom.css</href>
+	</resource>
+	
+	
+	<!-- 
+	<resource>
+		<content-type>text/css</content-type>
+		<href>/.ibmxspres/domino/apps/quintessens/urlrefer.nsf/custom.css</href>
+	</resource>
+	-->
+	
+
+</theme>

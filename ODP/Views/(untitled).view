@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note default='true' class='view' xmlns='http://www.lotus.com/dxl' version='9.0'
+ maintenanceversion='1.5' replicaid='C125803600254D46'>
+<noteinfo noteid='116' unid='38E48873CC1D6C39C125803600254D4E' sequence='1'>
+<created><datetime dst='true'>20160922T084726,22+02</datetime></created>
+<modified><datetime dst='true'>20160922T084726,25+02</datetime></modified>
+<revised><datetime dst='true'>20160922T084726,24+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20160922T084726,55+02</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20160922T084726,25+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Patrick Kwinten/O=quintessens</name></updatedby>
+<item name='$TITLE'><text/></item>
+<item name='$Formula' summary='true'><formula compiled='true'>
+HAAFAA4ACgABAAQAJCQkJAQABAAAAAgAZgADAA==
+</formula></item>
+<item name='$FormulaClass'><text>1</text></item></note>
+

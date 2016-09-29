@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+<div class="container">
+
+<h1>
+<div class="row">
+<div class="col-md-6">
+	<xp:link escape="true" text="/.ibmxspres/domino" id="link1" value="/.ibmxspres/domino/giphy.gif" target="_blank"></xp:link>
+</div>
+<div class="col-md-6">
+	<xp:link escape="true" text="fixed" id="link7"
+		target="_blank">
+	<xp:this.value><![CDATA[#{javascript:return "/.ibmxspres/domino/" + database.getFilePath() + "/giphy.gif"}]]></xp:this.value></xp:link>
+</div>
+</div><!-- /.row -->
+<div class="row">
+<div class="col-md-6">
+	<xp:link escape="true" text="/.ibmxspres/global" id="link2" value="/.ibmxspres/global/giphy.gif" target="_blank"></xp:link>
+</div>
+<div class="col-md-6">
+	<xp:link escape="true" text="fixed" id="link8"
+		target="_blank">
+	<xp:this.value><![CDATA[#{javascript:return "/.ibmxspres/global/" + "../../" + database.getFilePath() + "/giphy.gif"}]]></xp:this.value></xp:link>
+</div>
+</div><!-- /.row -->
+<div class="row">
+<div class="col-md-6">
+	<xp:link escape="true" text="/.ibmxspres/dojoroot" id="link3" value="/.ibmxspres/dojoroot/giphy.gif" target="_blank"></xp:link>
+</div>
+<div class="col-md-6">
+	<xp:link escape="true" text="fixed" id="link9" target="_blank">
+		<xp:this.value><![CDATA[#{javascript:return "/.ibmxspres/dojoroot/" + "../../../" + database.getFilePath() + "/giphy.gif"}]]></xp:this.value>
+	</xp:link>
+</div>
+</div><!-- /.row -->
+<div class="row">
+<div class="col-md-6">
+	<xp:link escape="true" text="/" id="link4" value="/giphy.gif" target="_blank"></xp:link>
+</div><div class="col-md-6">
+	no fix required
+</div>
+</div><!-- /.row -->
+<div class="row">
+<div class="col-md-6">
+	<xp:link escape="true" text="./" id="link5" value="./giphy.gif" target="_blank"></xp:link>
+</div><div class="col-md-6">
+	no fix required
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+	<xp:link escape="true" text="../" id="link6" value="../giphy.gif" target="_blank"></xp:link>
+	</div><div class="col-md-6">
+	<xp:link escape="true" text="fixed" id="link10" target="_blank">
+		<xp:this.value><![CDATA[#{javascript:return "../" + database.getFileName() + "/giphy.gif"}]]></xp:this.value>
+	</xp:link>
+</div>
+</div>
+</h1>
+<div class="row marker">background color set by css class definition</div>
+</div><!-- /.container -->
+</xp:view>
